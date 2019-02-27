@@ -1,0 +1,16 @@
+{
+    "name": "kip260384/alphapoint_client_php",
+    "description": "Test ironx API",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pavel Kipriyanov",
+            "email": "PKipriyanov@gmail.com"
+        }
+    ],
+    "require": {
+		"textalk/websocket": "1.0.*",
+        "ext-json": "*",
+        "pragmarx/google2fa": "^4.0"
+	}
+}
