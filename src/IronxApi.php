@@ -5,9 +5,6 @@ namespace Kip\Ironx;
 use PragmaRX\Google2FA\Google2FA;
 use WebSocket\Client;
 
-require_once 'IronxRepository.php';
-require_once 'RepositoryHandler.php';
-
 class IronxApi
 {
     private $repo;

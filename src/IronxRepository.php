@@ -2,10 +2,6 @@
 
 namespace Kip\Ironx;
 
-require_once 'Frame.php';
-
-use WebSocket\Client;
-
 /**
  * Class IronxRepository
  * @package Ironx
