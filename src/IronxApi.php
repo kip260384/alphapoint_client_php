@@ -58,7 +58,7 @@ class IronxApi
             //TODO Cache
             $this->token = $resp['SessionToken'] ?? null;
         } else {
-            throw new \Exception('Authentication failed. '.$resp['Errormsg'] ?? '');
+            throw new IronxException('Authentication failed. '.$resp['Errormsg'] ?? '');
         }
 
         return true;

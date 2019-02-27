@@ -253,7 +253,7 @@ class IronxRepository
 
         foreach ($paramsList as $name) {
             if (!key_exists($name, $params)) {
-                throw new \Exception("Param $name is missed");
+                throw new IronxException("Param $name is missed");
             }
         }
 
@@ -328,7 +328,7 @@ class IronxRepository
     public function submitAccountLedgerEntry($accountId, $productId, $crAmnt, $drAmnt, $comment = '', $omsId = 1)
     {
         if ($crAmnt > 0 && $drAmnt > 0) {
-            throw new \Exception('Only one of credit or deposit amount can be positive.');
+            throw new IronxException('Only one of credit or deposit amount can be positive.');
         }
         $this->query
             ->setN(ucfirst(__FUNCTION__))

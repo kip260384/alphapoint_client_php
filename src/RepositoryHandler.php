@@ -25,10 +25,10 @@ class RepositoryHandler
             $resp = $this->repo->send();
 
             if (isset($resp['errormsg']) && $resp['errormsg'] != '') {
-                throw new \Exception($resp['errormsg']);
+                throw new IronxException($resp['errormsg']);
             }
         } else {
-            throw new \Exception("Method $name doesn't exists.");
+            throw new IronxException("Method $name doesn't exists.");
         }
 
         return $resp;
