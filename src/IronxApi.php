@@ -1,6 +1,6 @@
 <?php
 
-namespace Ironx;
+namespace Kip\Ironx;
 
 use PragmaRX\Google2FA\Google2FA;
 use WebSocket\Client;

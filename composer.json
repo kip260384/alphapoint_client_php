@@ -12,5 +12,10 @@
 		"textalk/websocket": "1.0.*",
         "ext-json": "*",
         "pragmarx/google2fa": "^4.0"
-	}
+	},
+    "autoload": {
+        "psr-4": {
+            "Kip\\Ironx\\": "src/"
+        }
+    }
 }

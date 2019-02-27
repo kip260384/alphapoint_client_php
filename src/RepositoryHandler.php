@@ -1,6 +1,6 @@
 <?php
 
-namespace Ironx;
+namespace Kip\Ironx;
 
 /**
  * Class RepositoryHandler

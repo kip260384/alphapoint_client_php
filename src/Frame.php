@@ -1,6 +1,6 @@
 <?php
 
-namespace Ironx;
+namespace Kip\Ironx;
 
 class Frame
 {
